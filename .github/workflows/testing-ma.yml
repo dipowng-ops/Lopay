@@ -9,7 +9,7 @@ jobs:
         run: git version
     
       - name: GetNodeVersion
-        run: node version
+        run: node --version
 
       - name: GetJavaVersion
         run: java -version
