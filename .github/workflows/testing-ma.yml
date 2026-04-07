@@ -12,7 +12,7 @@ jobs:
         run: node --version
 
       - name: GetJavaVersion
-        run: java -version
+        run: java --version
  CopyFiles:
   runs on: ubuntu-latest
   steps: 
