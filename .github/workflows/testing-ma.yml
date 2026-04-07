@@ -13,7 +13,6 @@ jobs:
 
       - name: GetJavaVersion
         run: java -version
-
  CopyFiles:
   runs on: ubuntu-latest
   steps: 
