@@ -18,7 +18,7 @@ jobs:
   runs on: ubuntu-latest
   steps: 
     - name: CreateDirectory
-      run: mkdir /root/myfiles
+      run: mkdir /home/ubuntu/myfiles
       
     - name: Getfiles
       runs: wget https://downloads.apache.org/aries/blueprint-maven-plugin-1.1.0-source-release.zip
@@ -26,8 +26,8 @@ jobs:
     - name: GetOtherFiles
       run:
         wget https://downloads.apache.org/aries/blueprint-maven-plugin-1.1.0-source-release.zip
-        mv blueprint-maven-plugin-1.1.0-source-release.zip /root/myfiles
-        cd /root/myfiles
+        mv blueprint-maven-plugin-1.1.0-source-release.zip /home/ubuntu/myfiles
+        cd /home/ubuntu/myfiles
         unzip blueprint-maven-plugin-1.1.0-source-release.zip
       
 
